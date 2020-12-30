@@ -1,0 +1,4 @@
+name: Trampolinka
+version: ${project.version}
+main: fmc.trampolinka.Trampolinka
+api-version: 1.16
