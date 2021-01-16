@@ -27,7 +27,7 @@ public class TrampolineListener implements Listener {
                 player.setVelocity(new Vector(player.getVelocity().getX(), randomHeight, player.getVelocity().getZ()));
                 player.playSound(player.getLocation(), Sound.ENTITY_VILLAGER_NO, 5.0F, 2.0F);
             } else {
-                player.sendMessage("Byniu trampolina jest tylko dla Diamondów");
+                player.sendMessage(ChatColor.RED + ChatColor.BOLD + "ForgeMC " + ChatColor.GRAY + "» " + ChatColor.WHITE + "Byniu, trampolina jest dostępna tylko dla osób z rangą Diamond. Kup rangę na https://sklep.forgemc.pl");
             }
         }
 
